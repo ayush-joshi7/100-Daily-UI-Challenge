@@ -70,7 +70,7 @@ body {
 
 .heading-right {
     background-color: #ffffff;
-    background-image: url("/assets/images/Levi2.png");
+    background-image: url("./assets/images/Levi2.png");
 
     background-repeat: no-repeat;
     background-position: center bottom;
