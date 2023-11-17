@@ -4,7 +4,7 @@ body {
 }
 
 .topline {
-    /* background-image: linear-gradient(rgb(8, 50, 36),#ffffff); */
+    
     display: flex;
     height: 100vh;
     align-items: center;
@@ -109,4 +109,11 @@ h1>.second {
     background-position-x: -80px;
     background-position-y: 1px ;
 
+}
+
+footer{
+    width: 100vh;
+    text-align: left;
+    position: fixed;
+    top:97vh;
 }
