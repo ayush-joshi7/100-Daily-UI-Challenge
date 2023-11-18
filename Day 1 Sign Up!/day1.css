@@ -4,7 +4,6 @@ body {
 }
 
 .topline {
-    
     display: flex;
     height: 100vh;
     align-items: center;
@@ -27,13 +26,12 @@ body {
     color: white;
     background-color: rgb(8, 50, 36);
 }
+
 .heading-left>h1 {
     font-family: "Kufam", sans-serif;
     font-size: 3rem;
     text-align: center;
 }
-
-
 
 .heading-left>.height {
     padding-bottom: 0px;
@@ -79,7 +77,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    
 }
 
 .heading-right>h1 {
@@ -88,7 +85,7 @@ body {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
     position: relative;
-    top:0px;
+    top: 0px;
 
     font-family: "Vina Sans", sans-serif;
 }
@@ -97,24 +94,22 @@ h1>.second {
     color: #c69e58;
 }
 
-.signup{
+.signup {
     text-align: center;
-
 }
 
-.modal-content{
+.modal-content {
     background-image: url("./assets/images/birds.jpg");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position-x: -80px;
-    background-position-y: 1px ;
-
+    background-position-y: 1px;
 }
 
-footer{
+footer {
     width: 100vh;
     text-align: left;
     position: fixed;
-    top:97vh;
-    color:white;
+    top: 97vh;
+    color: white;
 }
