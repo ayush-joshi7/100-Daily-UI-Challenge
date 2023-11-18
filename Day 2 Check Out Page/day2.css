@@ -1,14 +1,101 @@
 body{
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    z-index: 1;
+    
+}
+
+
+.section-left{
+    display: grid;
+    grid-template-columns: repeat(4, 7.5vw);
+    padding-right:11vh;
+
+}
+.product{
+    width: 20vw;    
+    height:50vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0%;
+    border-bottom: 4px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    grid-area: 1/1/3/3;
+    z-index:-1;
+}
+
+.productimage{
+    width: 28vh;
+    height: 28vh;
+}
+
+.billinfo{
+    width: 20vw;    
+    height:50vh;
+    background-color: #FFB7CE;
+    border: 1px solid white;
+    border-radius: 5%;
+    border-bottom: 4px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    grid-area: 2/3/4/4;
+}
+
+.reciept{
+    font-family: 'VT323', monospace;
+    text-align: left;
+    color: ;
+
+}
+
+.reciept> hr{
+
+    width: 85%;
+    margin-left: 7.5%;
+    border-top: dotted; 
+}
+
+
+
+.reciept > h3 {
+    padding: 15px 15px 15px 20px;
+    font-family: 'VT323', monospace;
+    text-align: center;
+}
+
+.discount{
+    color: 	white;
+}
+
+.reciept > .order-part{
+    display: inline-block;
+    width: 50%;
+    padding: 15px 15px 15px 20px;
+    
+    text-align: left;
+    
+}
+
+.reciept > .price{
+    display: inline-block;
+    width:50%;
+    padding: 15px 15px 15px 20px;
+    font-family: 'VT323', monospace;
+    text-align: right;
+    
+}
+
+h3.price{
+    font-weight: bolder;
 }
 
 footer {
     width: 100vh;
+    align-self: flex-start;
     text-align: left;
     position: fixed;
     top: 97vh;
-    color: white;
+    color: black;
 }
